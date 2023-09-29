@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+*{
+	border-boxing:border-box;
+	margin:0px;
+	padding:0px;
+}
+.holder{
+	display:grid;
+	grid-template-columns: repeat(2,200px);
+	grid-template-rows: repaeat(2,200px);
+	grid-auto-flow:dense;
+}
