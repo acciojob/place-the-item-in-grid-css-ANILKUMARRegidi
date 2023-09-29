@@ -7,7 +7,19 @@
 }
 .holder{
 	display:grid;
-	grid-template-columns: repeat(2,200px);
-	grid-template-rows: repaeat(2,200px);
+	grid-template-columns:100px 100px;
+	grid-template-rows: 100px 100px;
 	grid-auto-flow:dense;
+}
+.item item-1{
+	background-color:green;
+}
+.item item-2{
+	background-color:green;
+}
+.item item-3{
+	background-color:green;
+}
+.item item-4{
+	background-color:green;
 }
